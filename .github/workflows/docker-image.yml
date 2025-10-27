@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ramya1990/Boardgame:${{github.sha}}
+          tags: ramya1990/boardgame:${{github.sha}}
